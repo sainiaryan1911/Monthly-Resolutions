@@ -106,3 +106,57 @@ h1 {
 .icon {
   width: 3vw;
 }
+
+@media only screen and (max-width: 630px) {
+  #main {
+    margin-top: 2vw;
+    width: auto;
+    background-color: white;
+    padding: 1.5vw;
+    float: none;
+    border-radius: 1vw;
+  }
+
+  #sidebar {
+    margin-top: 2vw;
+    width: auto;
+    background-color: white;
+    padding: 2vw;
+    border-left: 0;
+    margin-left: 0;
+    float: none;
+    border-radius: 1vw;
+  }
+  #container {
+    width: 100vw;
+    margin: 2vw auto;
+    padding: 2vw;
+  }
+  #Aryan {
+    width: 20vw;
+    border-radius: 200%;
+    margin: 0 36vw;
+  }
+  .icon {
+    width: 10vw;
+    margin: 0 9vw;
+  }
+  img {
+    width: 93vw;
+    margin: 1vw 0;
+  }
+  h1 {
+    font-size: x-large;
+  }
+  h1,
+  h3,
+  h5 {
+    text-align: center;
+  }
+  .ps {
+    text-align: center;
+  }
+  .grey {
+    text-align: center;
+  }
+}
